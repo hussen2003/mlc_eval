@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-05-07T10:16:10",
+  "runs_per_model": 10,
+  "prompt": "hi",
+  "max_tokens": 64,
+  "temperature": 0.0,
+  "metric_notes": {
+    "ttft_s": "Wall-clock time from HTTP request start to first streamed content chunk.",
+    "tps": "Approximate output tokens divided by time from first streamed content chunk to stream completion.",
+    "token_count": "Approximate regex-based token count. Replace with model tokenizer for exact token accounting.",
+    "values": "Synthetic representative values for pipeline testing only. Not measured benchmark results."
+  },
+  "device": {
+    "name": "Jetson AGX Xavier",
+    "memory_gb": 16,
+    "jetpack": "5.x",
+    "backend": "Vulkan"
+  },
+  "software": {
+    "llama_cpp": {
+      "build_type": "source",
+      "cmake_backend_flag": "GGML_VULKAN=ON",
+      "server_binary": "/home/ubuntu/llama-src/llama.cpp/build-vulkan/bin/llama-server"
+    },
+    "mlc_llm": {
+      "device": "vulkan",
+      "server_command": "mlc_llm serve"
+    }
+  },
+  "model_config": [
+    {
+      "model_label": "tinyllama-1.1b-chat-q4",
+      "llama_cpp": {
+        "enabled": true,
+        "server_bin": "/home/ubuntu/llama-src/llama.cpp/build-vulkan/bin/llama-server",
+        "model_path": "/home/ubuntu/llama-src/llama.cpp/models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+        "host": "127.0.0.1",
+        "port": 8081,
+        "ngl": 20
+      },
+      "mlc_llm": {
+        "enabled": true,
+        "model": "HF://mlc-ai/TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC",
+        "host": "127.0.0.1",
+        "port": 9091,
+        "extra_args": []
+      }
+    },
+    {
+      "model_label": "qwen2.5-0.5b-instruct-q4",
+      "llama_cpp": {
+        "enabled": true,
+        "server_bin": "/home/ubuntu/llama-src/llama.cpp/build-vulkan/bin/llama-server",
+        "model_path": "/home/ubuntu/llama-src/llama.cpp/models/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+        "host": "127.0.0.1",
+        "port": 8082,
+        "ngl": 20
+      },
+      "mlc_llm": {
+        "enabled": true,
+        "model": "HF://mlc-ai/Qwen2.5-0.5B-Instruct-q4f16_1-MLC",
+        "host": "127.0.0.1",
+        "port": 9092,
+        "extra_args": []
+      }
+    }
+  ]
+}
