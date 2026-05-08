@@ -1,0 +1,41 @@
+timestamp,backend,model_label,run,prompt,max_tokens,temperature,ttft_s,tps,output_tokens_approx,status,error,output_text
+2026-05-07T10:12:01,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,1,hi,64,0.0,0.912,18.7,37,ok,,Hello! How can I help you today?
+2026-05-07T10:12:05,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,2,hi,64,0.0,0.884,19.4,38,ok,,Hello! How can I assist you today?
+2026-05-07T10:12:09,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,3,hi,64,0.0,0.901,18.9,37,ok,,Hi! What can I help you with?
+2026-05-07T10:12:13,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,4,hi,64,0.0,0.936,18.2,36,ok,,Hello! How may I help you?
+2026-05-07T10:12:17,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,5,hi,64,0.0,0.873,19.8,38,ok,,Hi there! How can I help?
+2026-05-07T10:12:21,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,6,hi,64,0.0,0.894,19.1,37,ok,,Hello! What would you like to do?
+2026-05-07T10:12:25,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,7,hi,64,0.0,0.921,18.5,36,ok,,Hi! How can I assist you today?
+2026-05-07T10:12:29,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,8,hi,64,0.0,0.887,19.6,39,ok,,Hello! How can I help you today?
+2026-05-07T10:12:33,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,9,hi,64,0.0,0.908,18.8,37,ok,,Hi! What can I help you with today?
+2026-05-07T10:12:37,llama.cpp-vulkan,tinyllama-1.1b-chat-q4,10,hi,64,0.0,0.896,19.2,38,ok,,Hello! How can I assist you?
+2026-05-07T10:13:11,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,1,hi,64,0.0,0.764,22.8,38,ok,,Hello! How can I help you today?
+2026-05-07T10:13:15,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,2,hi,64,0.0,0.742,23.4,39,ok,,Hi! How can I assist you today?
+2026-05-07T10:13:19,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,3,hi,64,0.0,0.781,22.1,37,ok,,Hello! What can I help you with?
+2026-05-07T10:13:23,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,4,hi,64,0.0,0.753,23.0,38,ok,,Hi there! How can I help?
+2026-05-07T10:13:27,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,5,hi,64,0.0,0.735,24.0,40,ok,,Hello! How may I assist you today?
+2026-05-07T10:13:31,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,6,hi,64,0.0,0.769,22.7,38,ok,,Hi! What would you like help with?
+2026-05-07T10:13:35,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,7,hi,64,0.0,0.747,23.5,39,ok,,Hello! How can I help?
+2026-05-07T10:13:39,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,8,hi,64,0.0,0.759,23.1,38,ok,,Hi! How can I assist you?
+2026-05-07T10:13:43,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,9,hi,64,0.0,0.772,22.6,37,ok,,Hello! What can I do for you?
+2026-05-07T10:13:47,mlc-llm-vulkan,tinyllama-1.1b-chat-q4,10,hi,64,0.0,0.746,23.7,39,ok,,Hi! How can I help you today?
+2026-05-07T10:14:21,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,1,hi,64,0.0,0.521,31.4,35,ok,,Hi! How can I help you today?
+2026-05-07T10:14:24,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,2,hi,64,0.0,0.508,32.1,36,ok,,Hello! What can I help you with?
+2026-05-07T10:14:27,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,3,hi,64,0.0,0.534,30.8,34,ok,,Hi there! How can I assist you?
+2026-05-07T10:14:30,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,4,hi,64,0.0,0.517,31.7,35,ok,,Hello! How may I help?
+2026-05-07T10:14:33,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,5,hi,64,0.0,0.499,32.8,36,ok,,Hi! How can I help?
+2026-05-07T10:14:36,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,6,hi,64,0.0,0.526,31.2,35,ok,,Hello! How can I assist you today?
+2026-05-07T10:14:39,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,7,hi,64,0.0,0.512,32.0,36,ok,,Hi! What can I do for you?
+2026-05-07T10:14:42,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,8,hi,64,0.0,0.503,32.5,36,ok,,Hello! How can I help you?
+2026-05-07T10:14:45,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,9,hi,64,0.0,0.529,31.0,34,ok,,Hi! How can I assist?
+2026-05-07T10:14:48,llama.cpp-vulkan,qwen2.5-0.5b-instruct-q4,10,hi,64,0.0,0.515,31.9,35,ok,,Hello! What would you like help with?
+2026-05-07T10:15:22,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,1,hi,64,0.0,0.438,38.6,35,ok,,Hi! How can I help you today?
+2026-05-07T10:15:25,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,2,hi,64,0.0,0.421,39.8,36,ok,,Hello! What can I help you with?
+2026-05-07T10:15:28,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,3,hi,64,0.0,0.449,37.9,35,ok,,Hi there! How can I assist you?
+2026-05-07T10:15:31,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,4,hi,64,0.0,0.431,38.9,35,ok,,Hello! How may I help you?
+2026-05-07T10:15:34,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,5,hi,64,0.0,0.417,40.2,37,ok,,Hi! How can I help?
+2026-05-07T10:15:37,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,6,hi,64,0.0,0.442,38.4,35,ok,,Hello! How can I assist you today?
+2026-05-07T10:15:40,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,7,hi,64,0.0,0.426,39.5,36,ok,,Hi! What can I do for you?
+2026-05-07T10:15:43,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,8,hi,64,0.0,0.433,39.1,36,ok,,Hello! How can I help you?
+2026-05-07T10:15:46,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,9,hi,64,0.0,0.455,37.6,34,ok,,Hi! How can I assist?
+2026-05-07T10:15:49,mlc-llm-vulkan,qwen2.5-0.5b-instruct-q4,10,hi,64,0.0,0.424,39.7,36,ok,,Hello! What would you like help with?
