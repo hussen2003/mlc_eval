@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <title>Simple Chatbot</title>
+    <title>WebLLM Benchmarker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="./index.js" type="module"></script>
   </head>
-
   <body>
-    <p>
-      Step 1: Initialize WebLLM and Download Model
-    </p>
+    <h2>Step 1: Select and Load Model</h2>
     <div class="download-container">
       <select id="model-selection"></select>
-      <button id="download">
-        Download
-      </button>
+      <button id="download">Load Model</button>
     </div>
     <p id="download-status" class="hidden"></p>
 
-    <p>
-      Step 2: Chat
-    </p>
+    <h2>Step 2: Benchmark Chat</h2>
     <div class="chat-container">
       <div id="chat-box" class="chat-box"></div>
       <div id="chat-stats" class="chat-stats hidden"></div>
       <div class="chat-input-container">
-        <input type="text" id="user-input" placeholder="Type a message..." />
+        <input type="text" id="user-input" placeholder="Type your benchmark prompt..." />
         <button id="send" disabled>Send</button>
       </div>
     </div>
-  </body>
 
+    <h2>Step 3: Benchmark Results</h2>
+    <table id="benchmark-table">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Prompt</th>
+          <th>Response</th>
+          <th>TTFT (Seconds)</th>
+          <th>TPS (Tokens/Sec)</th>
+        </tr>
+      </thead>
+      <tbody>
+        </tbody>
+    </table>
+
+    <script src="./index.js" type="module"></script>
+  </body>
 </html>
